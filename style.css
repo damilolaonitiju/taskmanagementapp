@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("images/view-retro-alarm-clock-device-nutshell-tones.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #f7d8b2;
+  padding: 60px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  color: #452311;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 24px;
+}
+
+.c-task-input, .c-task-item {
+  display: flex;
+}
+
+#task-input {
+  width: 70%;
+  background-color: inherit;
+  border: 0.5px solid #ddbe98;
+  padding: 24px;
+  font-size: 18px;
+  color: #452311;
+}
+
+#task-input:focus {
+  outline: 0.5px solid #896840;
+}
+
+#add-task-btn {
+  padding: 0px 24px;
+  background-color: #de5b2a;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #452311;
+}
+
+.edit-btn, .delete-btn{
+    padding: 4px 8px;
+    border: none;
+}
+
+.edit-btn{
+    background: #f1b162;
+}
+.delete-btn{background: #de1912;}
+
+
+.c-tasks{
+    margin-top: 32px;
+}
+
+.c-tasks-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.c-task-item{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 12px;
+}
